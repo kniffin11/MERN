@@ -15,7 +15,7 @@ mongoose.connect('mongodb://localhost/name_of_your_DB', {
 // CLOUD CONNECTION -- on mongodb cloud follow these instructions: 
 // cloud - connect - connet to application - copy link and paste below - change password to root - add db name after .net/
 
-mongoose.connect(`mongodb+srv://root:root@cluster0.7rjdb.mongodb.net/${db_name}?retryWrites=true&w=majority`, {
+mongoose.connect(`mongodb+srv://DBUsername:DBPassword@cluster0.7rjdb.mongodb.net/${db_name}?retryWrites=true&w=majority`, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
